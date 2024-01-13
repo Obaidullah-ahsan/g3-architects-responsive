@@ -179,7 +179,7 @@ main {
     border-radius: 8px;
     background: #FF900E;
     color: #FFF;
-    width: 342px;
+    max-width: 342px;
     padding: 40px;
     position: relative;
     bottom: 130px;
@@ -293,7 +293,7 @@ footer {
         padding: 20px;
     }
 
-    nav , .features{
+    nav {
         flex-direction: column;
     }
 
@@ -310,13 +310,17 @@ footer {
     .teams-content {
         padding-left: 0;
     }
+    .features{
+        flex-direction: column;
+        margin: 15px;
+    }
     .feature-img img{
-        width: 100%;
+        width: 98%;
         padding-left: 0;
     }
     .ten-years-badge{
         position: static;
-        padding: 38px;
+        padding: 30px;
     }
 
     main {
